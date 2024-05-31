@@ -13,7 +13,7 @@ public class ConsultarBD {
    private String contraseña;
    private String consulta;
    private Scanner sc = new Scanner(System.in);
-   
+
    public ConsultarBD(String puerto, String nombre, String usuario, String contraseña) {
       this.puerto = puerto;
       this.nombre = nombre;
